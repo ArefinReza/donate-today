@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .firstsec{
     background-image: url(./img/cover.jpg);
     background-size: cover;
@@ -17,7 +20,7 @@
 
 .donate{
     color: white;
-    background-color:rgb(237, 16, 182);
+    background-color: rgba(255, 68, 0, 0.977);
     font-size: 30px;
     border-radius: 20%;
     padding: 10px;
@@ -27,7 +30,7 @@
 
 }
 .donate:hover{
-    color: rgb(237, 16, 182);
+    color: orangered;
     background-color: whitesmoke;
 }
 .donatetoday{
@@ -39,7 +42,6 @@
 }
 .donh2{
     font-size: 18px;
-    /* font-weight: 50; */
     font-family: 'Josefin Slab', serif;
 }
 .secondsection{
@@ -52,8 +54,6 @@
     
 }
 .dolar>div{
-    /* padding: 1px; */
-    /* margin-left: 150px; */
     margin-left: auto;
     margin-right: auto;
 
@@ -61,7 +61,7 @@
 .dolar>div:hover{
     background-color: rgb(238, 159, 130);
     border-radius: 5px;
-    border: 2px solid rgb(237, 16, 182);
+    border: 2px solid orangered;
     padding: 15px;
     position: absolute;
     display: block;
@@ -96,4 +96,74 @@ input{
 }
 #family3{
     background-color: rgb(13, 216, 216);
+}
+.livesdiv{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 70px;
+    font-family: 'Josefin Slab', serif;
+}
+.lives{
+    border: 1px solid white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.lives>h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+}
+
+.lives2{
+    border: 1px solid white;
+    width: 100%;
+    
+}
+.getmy{
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+
+}
+.getmy>h1{
+    font-size: 40px;
+    
+}
+.getmy>p{
+    font-weight: 900;
+    font-family: 'Josefin Slab', serif;
+}
+.subscribebox{
+    justify-content: center;
+    align-items: center;
+}
+.subcribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    margin-left: 250px;
+    margin-right:250px;
+    background-color: rgb(239, 166, 166);
+    border: 1px solid rgb(224, 255, 224);
+}
+.last{
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+.behumble{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+hr{
+    color: white;
+    margin: 0;
+    size: 0.5px;
+}
+footer{
+    color: white;
+    background-color: black;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
