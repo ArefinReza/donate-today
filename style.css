@@ -1,0 +1,64 @@
+.firstsec{
+    background-image: url(./img/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+}
+.coverdiv{
+    color: rgb(251, 246, 246);
+    text-align: center;
+    padding-top: 250px;
+    font-family: 'Yeseva One', cursive;
+}
+.h1font{
+    font-size: 70px;
+}
+
+.donate{
+    color: white;
+    background-color:rgb(237, 16, 182);
+    font-size: 30px;
+    border-radius: 20%;
+    padding: 10px;
+    text-decoration: none;
+}
+.donate:hover{
+    color: rgb(237, 16, 182);
+    background-color: whitesmoke;
+}
+.donatetoday{
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+.donh1{
+    font-size: 40px;
+}
+.donh2{
+    font-size: 18px;
+    /* font-weight: 50; */
+    font-family: 'Josefin Slab', serif;
+}
+.secondsection{
+    
+}
+.dolar{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Yeseva One', cursive;
+    
+}
+.dolar>div{
+    /* padding: 1px; */
+    /* margin-left: 150px; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.dolar>div:hover{
+    background-color: rgb(238, 159, 130);
+    border-radius: 5px;
+    border: 1px solid rgb(237, 16, 182);
+    padding: 15px;
+    position: relative;
+}
