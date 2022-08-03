@@ -75,5 +75,25 @@ input{
     font-size: 20px;
 }
 .plan{
+    padding: 10px;
+}
+.plan2{
     display: flex;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+}
+.family{
+    border: 1px solid white;
+    height: 100%;
+    padding: 30px;  
+}
+#family1{
+    background-color: aqua;
+}
+#family2{
+    background-color: rgb(28, 189, 189);
+}
+#family3{
+    background-color: rgb(13, 216, 216);
 }
